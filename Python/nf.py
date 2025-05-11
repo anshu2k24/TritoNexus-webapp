@@ -4,7 +4,7 @@ from google.genai import types
 
 # Initialize the client once (reuse for all requests)
 client = genai.Client(
-    api_key=("AIzaSyB0NlesJhFQhprJapkasavdtK5M1DtPRYw"),  # Use an environment variable for security
+    api_key=("Gemini 2.0 flash api"),  # Use an environment variable for security
 )
 
 MODEL_NAME = "gemini-2.0-flash"
